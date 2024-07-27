@@ -3,7 +3,7 @@
 - Data dictionary: https://docs.google.com/spreadsheets/d/1iWCNJcSutYqpULSQHlNyGInUvHg2BoUGoNRIGa6Szc4/edit?gid=1322284596#gid=1322284596 
 
 # Analysis question: 
-- [1] what are the factors affecting the booking revenue of Airbnb listings in Bangkok? 
+- [1] What are the factors affecting the booking revenue of Airbnb listings in Bangkok? 
 - [2] How Airbnb hosts in Bangkok can improve their revenue?
 
 # Problem break down:
