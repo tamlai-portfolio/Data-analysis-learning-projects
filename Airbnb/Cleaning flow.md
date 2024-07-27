@@ -10,23 +10,23 @@
 
           Booking Revenue = Price per night * Occupancy rate (L12Ms) * Total availability (N12Ms)
 
-## question paraphase: what are the factors affecting the 3 key metrics:
+## Question paraphase: what are the factors affecting the 3 key metrics:
 (1) price: facility, location, time 
 (2) occupancy rate and availability factors: location, time, price, review related factors, host related factors
 
 ## Clean listing data
-- [x] get rid of unnecessary columns
+- [x] Get rid of unnecessary columns
   
 A- Price factors:
-  - [x] facitlity: property_type, room_type, accomodates, bathrooms, bathrooms text, bedrooms, beds, amenities, price
-  - [x] location: latitde, longitude, neighbourhood_cleanse,
-  - [x] time: calendar factors
+  - [x] Facitlity: property_type, room_type, accomodates, bathrooms, bathrooms text, bedrooms, beds, amenities, price
+  - [x] Location: latitde, longitude, neighbourhood_cleanse,
+  - [x] Time: calendar factors
   
 B- Occupancy rate: 
-  - [x] location, time, price factors
-  - [x] occupancy metrics: availability, minimum/ maximum night, 
-  - [x] host factors: check host_location, convert host_since/ response time/ response rate/ acceptance rate/ superhost to suitable data types
-  - [x] review related: keep all review column in listing, and count the number of review for each listing in review data
+  - [x] Location, time, price factors
+  - [x] Occupancy metrics: availability, minimum/ maximum night, 
+  - [x] Host factors: check host_location, convert host_since/ response time/ response rate/ acceptance rate/ superhost to suitable data types
+  - [x] Review related: keep all review column in listing, and count the number of review for each listing in review data
 
 C- Other:
   - [x] Outliers check
@@ -41,14 +41,14 @@ C- Other:
 ## Clean calendar and reviews data
 ### Setting requirements
 A - For review table:
-- [x] drop column0
-- [x] convert date into datetime format
+- [x] Drop column0
+- [x] Convert date into datetime format
 
 B - For calendar table:
-- [x] drop column0
-- [x] convert price into price_baht
-- [x] convert date into datetime format
-- [x] clean adjusted-price
+- [x] Drop column0
+- [x] Convert price into price_baht
+- [x] Convert date into datetime format
+- [x] Clean adjusted-price
 
 C- Other:
 - [x] Remove listings on calendar and reviews that has been deleted from listing table as identified as inactive listing
