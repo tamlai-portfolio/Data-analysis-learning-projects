@@ -10,9 +10,9 @@
 
           Booking Revenue = Price per night * Occupancy rate (L12Ms) * Total availability (N12Ms)
 
-## Question paraphase: what are the factors affecting the 3 key metrics:
+## Question paraphase: what are the factors affecting those key metrics:
 (1) price: facility, location, time 
-(2) occupancy rate and availability factors: location, time, price, review related factors, host related factors
+(2) occupancy rate and (3) availability factors: location, time, price, review related factors, host related factors
 
 ## Clean listing data
 - [x] Get rid of unnecessary columns
